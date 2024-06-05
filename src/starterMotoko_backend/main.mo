@@ -1,7 +1,6 @@
 import RbTree "mo:base/RBTree";
 import Principal "mo:base/Principal";
 import Iter "mo:base/Iter";
-import Aray "mo:base/Array";
 
 actor {
     let tree = RbTree.RBTree<Principal, Text>(Principal.compare);
