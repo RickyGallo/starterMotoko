@@ -19,5 +19,8 @@ actor {
             };
         };
     };
+    public shared ({caller}) func signIn(): async ?Text{
+        tree.get(caller);
+    };
 
 };
